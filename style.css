@@ -458,3 +458,22 @@ body {
 .tabs::-webkit-scrollbar {
   display: none;
 }
+
+.menfess-btn {
+  display: block;
+  margin-top: 12px;
+  background: #2b3944;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+/* hover effect */
+.menfess-btn:hover {
+  background: #1f2a33;
+  transform: translateY(-1px);
+}
